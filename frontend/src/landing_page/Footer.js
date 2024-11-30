@@ -2,16 +2,50 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
-      <div className="container border-top mt-5">
-        <div className="row mt-5">
-          <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
-            <p>
-              &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
-            </p>
+    <footer className="bg-light" >
+      <div className="container mt-5">
+        <div className="row p-5">
+          <div className="col-3">
+            <div className="row">
+              <img
+                src="media/images/logo.svg"
+                style={{ width: "60%", marginLeft: "-4%" }}
+                alt="Logo"
+              />
+            </div>
+            <div className="row text-muted mt-4">
+              © 2010 - 2024, Zerodha Broking Ltd.
+              <br />
+              All rights reserved.
+            </div>
+            <div className="row mb-2 pb-2 mt-4">
+              <div className="col-2">
+                <i class="fs-4 fa fa-twitter" aria-hidden="true"></i>
+              </div>
+              <div className="col-2">
+                <i class="fs-4 fa fa-facebook-official" aria-hidden="true"></i>
+              </div>
+              <div className="col-2">
+                <i class="fs-4 fa fa-instagram" aria-hidden="true"></i>
+              </div>
+              <div className="col-2">
+                <i class="fs-4 fa fa-linkedin" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div className="row mt-2">
+              <div className="col-2">
+                <i class="fs-4 fa fa-youtube-play" aria-hidden="true"></i>
+              </div>
+              <div className="col-2">
+                <i class="fs-4 fa fa-whatsapp" aria-hidden="true"></i>
+              </div>
+              <div className="col-2">
+                <i class="fs-4 fa fa-telegram" aria-hidden="true"></i>
+              </div>
+              <div className="col-2"></div>
+            </div>
           </div>
-          <div className="col">
+          <div className="col-3">
             <p>Company</p>
             <a href="">About</a>
             <br />
@@ -27,12 +61,12 @@ function Footer() {
             <br />
             <a href="">Press & media</a>
             <br />
-            <a href="">Zerodha cares (CSR)</a>
+            <a href="">Zerodha Cares (CSR)</a>
             <br />
           </div>
-          <div className="col">
+          <div className="col-3">
             <p>Support</p>
-            <a href="">Contact</a>
+            <a href="">Contact us</a>
             <br />
             <a href="">Support portal</a>
             <br />
@@ -42,30 +76,39 @@ function Footer() {
             <br />
             <a href="">Downloads & resources</a>
             <br />
+            <a href="">Videos</a>
+            <br />
+            <a href="">Market overview</a>
+            <br />
+            <a href="">How to file a complaint?</a>
+            <br />
+            <a href="">Status of your complaints</a>
+            <br />
           </div>
-          <div className="col">
+          <div className="col-3">
             <p>Account</p>
             <a href="">Open an account</a>
             <br />
             <a href="">Fund transfer</a>
             <br />
-            <a href="">60 day challenge</a>
-            <br />
           </div>
         </div>
-        <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
+        <div
+          style={{ fontSize: "12px" }}
+          className="p-5 pt-2 text-small text-muted"
+        >
           <p>
-            Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
-            INZ000031633 CDSL: Depository services through Zerodha Securities
-            Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
-            through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
-            no.: INZ000038238 Registered Address: Zerodha Broking Ltd.,
-            #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
-            J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any
-            complaints pertaining to securities broking please write to
-            complaints@zerodha.com, for DP related to dp@zerodha.com. Please
-            ensure you carefully read the Risk Disclosure Document as prescribed
-            by SEBI | ICF
+            Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
+            no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha
+            Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity
+            Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; NSE-50001
+            – SEBI Registration no.: INZ000038238 Registered Address: Zerodha
+            Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence
+            Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka,
+            India. For any complaints pertaining to securities broking please
+            write to complaints@zerodha.com, for DP related to dp@zerodha.com.
+            Please ensure you carefully read the Risk Disclosure Document as
+            prescribed by SEBI | ICF
           </p>
 
           <p>
@@ -76,8 +119,22 @@ function Footer() {
           </p>
 
           <p>
+            Smart Online Dispute Resolution | Grievances Redressal Mechanism
+          </p>
+
+          <p>
             Investments in securities market are subject to market risks; read
             all the related documents carefully before investing.
+          </p>
+
+          <p>
+            Attention investors: 1) Stock brokers can accept securities as
+            margins from clients only by way of pledge in the depository system
+            w.e.f September 01, 2020. 2) Update your e-mail and phone number
+            with your stock broker / depository participant and receive OTP
+            directly from depository on your e-mail and/or mobile number to
+            create pledge. 3) Check your securities / MF / bonds in the
+            consolidated account statement issued by NSDL/CDSL every month.
           </p>
 
           <p>

@@ -1,15 +1,14 @@
-import React from "react";
+import React from 'react'
+import HeroSection from './HeroSection'
+import Team from './Team'
 
-import Hero from "./Hero";
-import Team from "./Team";
-
-function PricingPage() {
+function AboutPage() {
   return (
     <>
-      <Hero />
-      <Team />
+      <HeroSection/>
+      <Team/>
     </>
-  );
+  )
 }
 
-export default PricingPage;
+export default AboutPage
